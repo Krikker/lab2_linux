@@ -1,0 +1,9 @@
+[Unit]
+Description=Демон для регулярного резервного копирования
+
+[Service]
+Type=simple
+ExecStart=/home/krkofdm/daemon2/backup_daemon
+
+[Install]
+WantedBy=multi-user.target
